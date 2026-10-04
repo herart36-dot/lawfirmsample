@@ -1,263 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hartwell &amp; Vale Law Partners | Trusted Corporate, Family &amp; Litigation Lawyers</title>
-<meta name="description" content="Hartwell & Vale Law Partners provides clear, strategic legal counsel in corporate, family, property, criminal defense, labor and immigration law. Book a free consultation.">
-<meta name="theme-color" content="#0f1f3d">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hartwell & Vale Law Partners">
-<meta property="og:description" content="Clear, strategic legal counsel. Book a free 30-minute case review.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath d='M24 3 42 9v15c0 11-8 18-18 22C14 42 6 35 6 24V9z' fill='%230f1f3d' stroke='%23b8924a' stroke-width='2'/%3E%3Cpath d='M24 12v22M15 16h18M18 34h12' stroke='%23b8924a' stroke-width='2' fill='none'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"LegalService","name":"Hartwell & Vale Law Partners","description":"Corporate, family, property, criminal defense, labor and immigration legal services.","areaServed":"Philippines","address":{"@type":"PostalAddress","streetAddress":"123 Sample Avenue","addressLocality":"Makati City","addressCountry":"PH"},"telephone":"+63 2 8000 0000","priceRange":"Free initial consultation"}</script>
+<meta charset="utf-8"><meta name="color-scheme" content="dark">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mercado Lim &amp; Santos | Attorneys-at-Law</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">a
 <style>
-:root{--navy:#0f1f3d;--navy2:#172c52;--gold:#b8924a;--gold2:#d8b873;--ivory:#f7f3ea;--ink:#1d2433;--mute:#5d6577;--line:#e4dcc9;--white:#fff}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}
-body{margin:0;font-family:'Source Sans 3',system-ui,sans-serif;color:var(--ink);background:var(--white);line-height:1.65;font-size:17px}
-h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;margin:0;line-height:1.12;color:var(--navy)}
-a{color:inherit}.wrap{max-width:1120px;margin:auto;padding:0 22px}
-/* nav */
-nav{position:fixed;inset:0 0 auto 0;z-index:50;transition:.35s;padding:18px 0}
-nav.s{background:rgba(15,31,61,.96);padding:10px 0;box-shadow:0 4px 24px rgba(0,0,0,.2);backdrop-filter:blur(8px)}
-nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px}
-.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff}
-.logo svg{width:44px;height:44px;flex:none}
-.logo b{display:block;font:700 1.35rem 'Cormorant Garamond',serif;letter-spacing:.08em;line-height:1}
-.logo small{display:block;font-size:.62rem;letter-spacing:.32em;color:var(--gold2);margin-top:4px}
-.links{display:flex;gap:26px;align-items:center}
-.links a{color:#fff;text-decoration:none;font-weight:600;font-size:.95rem;position:relative}
-.links a:not(.btn)::after{content:'';position:absolute;left:0;bottom:-4px;height:2px;width:0;background:var(--gold);transition:.3s}
-.links a:not(.btn):hover::after{width:100%}
-.btn{display:inline-block;background:var(--gold);color:#14100a;font-weight:700;padding:13px 26px;border-radius:3px;text-decoration:none;border:0;cursor:pointer;font:700 1rem 'Source Sans 3',sans-serif;transition:.25s}
-.btn:hover{background:var(--gold2);transform:translateY(-2px);box-shadow:0 8px 20px rgba(184,146,74,.35)}
-.btn.o{background:none;border:2px solid rgba(255,255,255,.55);color:#fff}.btn.o:hover{background:#fff;color:var(--navy)}
-.links .btn{padding:9px 18px}
-.burger{display:none;background:none;border:0;color:#fff;font-size:1.8rem;cursor:pointer}
-/* hero */
-.hero{background:radial-gradient(1200px 600px at 80% -10%,#264273 0,transparent 60%),var(--navy);color:#fff;padding:170px 0 110px;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;right:-120px;top:60px;width:520px;height:520px;border:1px solid rgba(184,146,74,.25);border-radius:50%;animation:spin 60s linear infinite}
-.hero::after{content:'';position:absolute;right:-40px;top:140px;width:360px;height:360px;border:1px solid rgba(184,146,74,.18);border-radius:50%;animation:spin 40s linear infinite reverse}
-@keyframes spin{to{transform:rotate(360deg)}}
-.eyebrow{color:var(--gold2);letter-spacing:.28em;font-size:.78rem;font-weight:700;text-transform:uppercase;display:flex;align-items:center;gap:12px}
-.eyebrow::before{content:'';width:46px;height:2px;background:var(--gold);transform-origin:left;animation:line 1s .3s backwards}
-@keyframes line{from{transform:scaleX(0)}}
-.hero h1{color:#fff;font-size:clamp(2.6rem,6.4vw,5rem);margin:18px 0;max-width:780px;font-weight:600}
-.hero h1 em{color:var(--gold2);font-style:italic}
-.hero p{max-width:560px;font-size:1.2rem;color:#d4dbea}
-.cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
-.up{animation:up .9s cubic-bezier(.2,.7,.2,1) backwards}.d1{animation-delay:.15s}.d2{animation-delay:.3s}.d3{animation-delay:.45s}
-@keyframes up{from{opacity:0;transform:translateY(28px)}}
-/* stats */
-.stats{background:var(--white);margin-top:-52px;position:relative;z-index:2}
-.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;box-shadow:0 18px 50px rgba(15,31,61,.18);border-top:4px solid var(--gold)}
-.st{padding:28px 18px;text-align:center;border-right:1px solid var(--line)}.st:last-child{border:0}
-.st b{font:700 2.8rem 'Cormorant Garamond',serif;color:var(--navy);display:block;line-height:1}
-.st span{color:var(--mute);font-size:.9rem}
-section{padding:96px 0}.alt{background:var(--ivory)}
-.h{max-width:640px;margin-bottom:46px}.h h2{font-size:clamp(2rem,4.4vw,3.1rem);margin-top:10px}
-.h .eyebrow{color:var(--gold)}.h p{color:var(--mute)}
-.grid{display:grid;gap:22px}.g3{grid-template-columns:repeat(3,1fr)}
-.card{background:#fff;border:1px solid var(--line);padding:30px 26px;position:relative;transition:.35s;overflow:hidden}
-.card::after{content:'';position:absolute;left:0;bottom:0;height:3px;width:0;background:var(--gold);transition:.4s}
-.card:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(15,31,61,.12)}.card:hover::after{width:100%}
-.card .n{font:600 2.2rem 'Cormorant Garamond',serif;color:var(--gold)}
-.card h3{font-size:1.6rem;margin:6px 0 8px}.card p{margin:0;color:var(--mute);font-size:.98rem}
-/* why */
-.why{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
-.why ul{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:16px}
-.why li{display:flex;gap:14px}.why li i{flex:none;width:28px;height:28px;border-radius:50%;background:var(--navy);color:var(--gold2);display:grid;place-items:center;font-style:normal;font-size:.85rem;margin-top:2px}
-.quote{background:var(--navy);color:#fff;padding:44px 38px;position:relative}
-.quote::before{content:'“';position:absolute;top:-6px;left:22px;font:700 7rem 'Cormorant Garamond',serif;color:var(--gold);line-height:1;opacity:.6}
-.quote p{font:500 1.6rem/1.35 'Cormorant Garamond',serif;margin:26px 0 14px}.quote small{color:var(--gold2);letter-spacing:.12em}
-/* team */
-.team .card{text-align:center;padding:0 0 30px 0}
-.team .card-content{padding:20px 26px 0}
-.av-wrap{width:100%;height:280px;overflow:hidden;position:relative}
-.av-img{width:100%;height:100%;object-fit:cover;object-position:center;transition:.4s}
-.card:hover .av-img{transform:scale(1.05)}
-.role{color:var(--gold);font-weight:700;font-size:.85rem;letter-spacing:.1em;text-transform:uppercase}
-/* process */
-.steps{counter-reset:s}.steps .card{padding-top:58px}
-.steps .card::before{counter-increment:s;content:'0' counter(s);position:absolute;top:14px;left:26px;font:700 2.6rem 'Cormorant Garamond',serif;color:var(--gold);opacity:.55}
-.sample{font-size:.8rem;color:var(--mute);margin-top:6px}
-.stars{color:var(--gold);letter-spacing:3px}
-/* faq */
-details{background:#fff;border:1px solid var(--line);margin-bottom:12px;padding:0}
-summary{cursor:pointer;font-weight:700;padding:18px 54px 18px 22px;list-style:none;position:relative;color:var(--navy)}
-summary::-webkit-details-marker{display:none}
-summary::after{content:'+';position:absolute;right:22px;top:50%;transform:translateY(-50%);font-size:1.6rem;color:var(--gold);transition:.3s}
-details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
-details p{margin:0;padding:0 22px 20px;color:var(--mute)}
-/* contact */
-.contact{background:var(--navy);color:#fff}.contact h2,.contact h3{color:#fff}.contact .eyebrow{color:var(--gold2)}
-.cg{display:grid;grid-template-columns:1fr 1.1fr;gap:56px}
-.info p{color:#cfd7e8}.info b{color:var(--gold2);display:block;font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;margin-top:20px}
-form{background:#fff;color:var(--ink);padding:32px;display:grid;gap:14px;border-top:4px solid var(--gold)}
-label{font-weight:700;font-size:.88rem;color:var(--navy)}
-input,select,textarea{width:100%;padding:12px 14px;border:1px solid #cfc6b0;font:inherit;background:#fffdf9;margin-top:4px}
-input:focus,select:focus,textarea:focus{outline:3px solid rgba(184,146,74,.45);border-color:var(--gold)}
-.ok{display:none;background:#e9f6ee;color:#14532d;padding:12px;font-weight:700}
-footer{background:#0a1630;color:#9aa6c0;padding:44px 0 28px;font-size:.88rem}
-footer .logo{margin-bottom:14px}.disc{border-top:1px solid #243457;margin-top:24px;padding-top:18px;line-height:1.6}
-.rv{opacity:0;transform:translateY(34px);transition:opacity .8s,transform .8s cubic-bezier(.2,.7,.2,1)}.rv.in{opacity:1;transform:none}
-:focus-visible{outline:3px solid var(--gold2);outline-offset:3px}
-@media(max-width:860px){
- .burger{display:block}.links{position:fixed;inset:64px 0 auto 0;background:var(--navy);flex-direction:column;padding:24px;gap:18px;transform:translateY(-130%);transition:.4s}.links.o{transform:none}
- .g3,.why,.cg{grid-template-columns:1fr}.stats .wrap{grid-template-columns:1fr 1fr}.st:nth-child(2){border-right:0}.st{border-bottom:1px solid var(--line)}
- section{padding:70px 0}.hero{padding:140px 0 100px}}
-@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
-</style>
-<style id="mobile-polish">
-@media(max-width:860px){small{font-size:11px!important}}
-@media(pointer:coarse){.burger{min-width:44px;min-height:44px}.links .btn{padding:12px 20px}.contact a{display:inline-block;padding:8px 0}}
+:root{--bg:#0a0a0a;--ivory:#101010;--ink:#ffffff;--text:#d6d6d6;--mute:#9b9b9b;--line:#262626;--gold:#c9a05c;--gold2:#dcb877;--card:#141414;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:calc(110px + env(safe-area-inset-top,0px))}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 "Public Sans",system-ui,sans-serif}
+h1,h2,h3,h4{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;color:var(--ink);line-height:1.08;margin:0}
+a{color:inherit}:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1220px;margin:0 auto;padding:0 28px}
+.top{background:var(--ivory);border-bottom:1px solid var(--line);font-size:13px}
+.top .wrap{display:flex;justify-content:space-between;gap:16px;height:40px;align-items:center;color:var(--mute)}
+.top b{color:var(--ink);font-weight:600}
+@media(max-width:700px){.top span:first-child{display:none}.top .wrap{justify-content:center}}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:var(--bg);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:78px;gap:24px}
+.logo{display:flex;align-items:center;gap:14px;text-decoration:none}
+.mono{width:44px;height:44px;border:1.5px solid var(--gold);display:grid;place-items:center;font:700 22px "Cormorant Garamond",serif;color:var(--gold)}
+.logo strong{font:700 23px "Cormorant Garamond",serif;color:var(--ink);line-height:1;display:block}
+.logo small{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+nav{display:flex;gap:30px;align-items:center}nav a{text-decoration:none;font-size:14px;font-weight:500;color:var(--text)}nav a:hover{color:var(--gold)}
+.btn{display:inline-block;padding:15px 30px;background:var(--ink);color:var(--bg);font-weight:600;font-size:14px;letter-spacing:.03em;text-decoration:none;border:1.5px solid var(--ink);cursor:pointer;font-family:inherit;transition:.2s}
+.btn:hover{background:var(--gold);border-color:var(--gold);color:#0a0a0a}
+.btn.o{background:transparent;color:var(--ink)}.btn.o:hover{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.btn.g{background:var(--gold);border-color:var(--gold);color:#0a0a0a}.btn.g:hover{background:var(--ink);border-color:var(--ink);color:#0a0a0a}
+@media(max-width:960px){nav a:not(.btn){display:none}}
+.hero{position:relative;background:radial-gradient(ellipse at 80% 20%,#1d1810 0%,#0a0a0a 60%);overflow:hidden;border-bottom:1px solid var(--line)}
+.hero::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 119px,rgba(201,160,92,.08) 119px 120px)}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.25fr .75fr;gap:64px;padding-top:96px;padding-bottom:96px;align-items:center}
+.est{display:inline-flex;gap:12px;align-items:center;font-size:13px;font-weight:600;color:var(--gold);margin-bottom:26px}
+.est::before{content:"";width:44px;height:1.5px;background:var(--gold)}
+.hero h1{font-size:clamp(46px,6.6vw,92px);letter-spacing:-.015em}
+.hero p{font-size:19px;color:var(--mute);max-width:54ch;margin:26px 0 36px}
+.acts{display:flex;gap:14px;flex-wrap:wrap}
+.facts{background:var(--card);border:1px solid var(--line);padding:36px;box-shadow:0 30px 60px -30px #000}
+.facts h3{font-size:26px;margin-bottom:22px;padding-bottom:16px;border-bottom:1.5px solid var(--gold)}
+.facts div{display:flex;justify-content:space-between;gap:14px;padding:13px 0;border-bottom:1px solid var(--line);font-size:15px}
+.facts div:last-of-type{border:0}.facts b{color:var(--ink);font-weight:600}.facts span{color:var(--mute);text-align:right}
+@media(max-width:960px){.hero .wrap{grid-template-columns:1fr;padding-top:64px;padding-bottom:64px;gap:44px}}
+.owner{margin:0;background:var(--card);border:1px solid var(--line);box-shadow:0 30px 60px -30px #000}
+.owner .pic{aspect-ratio:4/4.6;background:var(--img,linear-gradient(160deg,#2a2a2a,#0f0f0f)) center/cover;display:grid;place-items:center;border-bottom:3px solid var(--gold)}
+.owner .pic span{font:600 96px "Cormorant Garamond",serif;color:var(--gold)}
+.owner .pic[style*="--img"] span{display:none}
+.owner figcaption{padding:24px 28px 28px}.owner b{display:block;font:700 28px "Cormorant Garamond",serif;color:var(--ink);line-height:1.1}
+.owner figcaption span{display:block;color:var(--gold);font-weight:600;font-size:14px;margin:4px 0 14px}.owner em{font-style:normal;font-size:13px;color:var(--mute)}
+.trust{border-bottom:1px solid var(--line)}
+.trust .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.trust div{padding:34px 24px;border-right:1px solid var(--line);text-align:center}.trust div:last-child{border:0}
+.trust b{display:block;font:700 46px "Cormorant Garamond",serif;color:var(--gold);line-height:1}
+.trust span{font-size:13.5px;color:var(--mute)}
+@media(max-width:760px){.trust .wrap{grid-template-columns:1fr 1fr}.trust div:nth-child(2){border-right:0}.trust div:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+section{padding:108px 0}section.iv{background:var(--ivory);border-block:1px solid var(--line)}
+@media(max-width:800px){section{padding:68px 0}}
+.kick{font-size:13px;font-weight:600;color:var(--gold);margin-bottom:14px;display:flex;gap:12px;align-items:center}.kick::before{content:"";width:32px;height:1.5px;background:var(--gold)}
+h2.big{font-size:clamp(36px,4.8vw,62px);letter-spacing:-.01em}
+.lead{color:var(--mute);max-width:60ch;margin:20px 0 0;font-size:17px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+@media(max-width:900px){.two{grid-template-columns:1fr;gap:40px}}
+.ph{position:relative;aspect-ratio:5/6;background:var(--img,linear-gradient(160deg,#242424,#0f0f0f)) center/cover;display:flex;align-items:flex-end;padding:30px}
+.ph::after{content:"";position:absolute;inset:16px -16px -16px 16px;border:1.5px solid var(--gold);z-index:-1}
+.ph q{font:italic 600 28px/1.25 "Cormorant Garamond",serif;color:#fff;quotes:none;text-shadow:0 2px 16px #000}
+.ph{margin:0 16px 16px 0}
+.sig{margin-top:30px;display:flex;gap:16px;align-items:center}.sig i{width:48px;height:1.5px;background:var(--gold)}.sig b{font:700 22px "Cormorant Garamond",serif;color:var(--ink);display:block;line-height:1.1}.sig span{font-size:13px;color:var(--mute)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);margin-top:56px;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.pa{padding:40px 30px 44px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--card);transition:.25s;position:relative}
+.pa:hover{background:var(--ivory)}.pa:hover::after{width:100%}
+.pa::after{content:"";position:absolute;left:0;bottom:-1px;height:3px;width:0;background:var(--gold);transition:.3s}
+.pa svg{width:38px;height:38px;stroke:var(--gold);fill:none;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;margin-bottom:22px}
+.pa h3{font-size:27px;margin-bottom:12px}.pa p{margin:0;color:var(--mute);font-size:15px}
+@media(max-width:1000px){.grid{grid-template-columns:1fr 1fr}}@media(max-width:560px){.grid{grid-template-columns:1fr}}
+.team{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:56px}
+.mem .av{aspect-ratio:4/5;background:var(--img,linear-gradient(160deg,#242424,#0f0f0f)) center/cover;display:grid;place-items:center;font:600 64px "Cormorant Garamond",serif;color:var(--gold);margin-bottom:18px;border-bottom:3px solid var(--gold)}
+.mem h3{font-size:25px}.mem span{font-size:13.5px;color:var(--gold);font-weight:600}.mem p{margin:8px 0 0;font-size:14.5px;color:var(--mute)}
+@media(max-width:900px){.team{grid-template-columns:1fr 1fr}}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:56px;counter-reset:s}
+.st{padding:0 30px 0 0;position:relative}
+.st::before{counter-increment:s;content:counter(s);width:48px;height:48px;border-radius:50%;background:var(--gold);color:#0a0a0a;display:grid;place-items:center;font:700 22px "Cormorant Garamond",serif;margin-bottom:22px;position:relative;z-index:1}
+.st::after{content:"";position:absolute;top:24px;left:48px;right:0;height:1.5px;background:var(--line)}.st:last-child::after{display:none}
+.st h3{font-size:25px;margin-bottom:8px}.st p{margin:0;color:var(--mute);font-size:15px}
+@media(max-width:860px){.steps{grid-template-columns:1fr;gap:34px}.st::after{display:none}}
+.res{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:56px}
+.rc{background:var(--card);border:1px solid var(--line);padding:36px;position:relative}
+.rc::before{content:"";position:absolute;left:0;top:0;width:100%;height:3px;background:var(--gold)}
+.rc b{font:700 52px "Cormorant Garamond",serif;color:var(--ink);display:block;line-height:1}
+.rc em{display:block;font-style:normal;font-weight:600;color:var(--gold);font-size:14px;margin:10px 0 14px}.rc p{margin:0;color:var(--mute);font-size:15px}
+@media(max-width:900px){.res{grid-template-columns:1fr}}
+.tq{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:56px}
+.tq blockquote{margin:0;padding:34px;background:var(--card);border:1px solid var(--line)}
+.tq blockquote::before{content:"\201C";display:block;font:700 70px/0.6 "Cormorant Garamond",serif;color:var(--gold);margin-bottom:14px}
+.tq cite{display:block;margin-top:18px;font-style:normal;font-weight:600;color:var(--ink);font-size:14px}
+@media(max-width:900px){.tq{grid-template-columns:1fr}}
+.logos{display:flex;gap:14px;flex-wrap:wrap;margin-top:44px}.logos span{padding:12px 22px;border:1px solid var(--line);font:600 17px "Cormorant Garamond",serif;color:var(--ink)}
+details{border-bottom:1px solid var(--line);padding:24px 0}
+summary{font:600 25px "Cormorant Garamond",serif;color:var(--ink);cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px}
+summary::after{content:"+";color:var(--gold);font-size:30px;line-height:.9}details[open] summary::after{content:"\2212"}
+details p{margin:14px 0 0;color:var(--mute);max-width:72ch}
+.cta .wrap{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
+@media(max-width:900px){.cta .wrap{grid-template-columns:1fr;gap:44px}}
+.info{margin-top:36px}.info div{padding:18px 0;border-top:1px solid var(--line)}.info b{display:block;font:700 20px "Cormorant Garamond",serif;color:var(--ink)}.info span{color:var(--mute);font-size:15px}
+form{background:var(--card);border:1px solid var(--line);padding:40px;box-shadow:0 30px 60px -30px #000}
+form h3{font-size:30px;margin-bottom:6px}
+label{display:block;font-size:13px;font-weight:600;color:var(--ink);margin:16px 0 6px}
+input,select,textarea{width:100%;font:inherit;padding:14px;border:1px solid var(--line);background:var(--bg);color:var(--text);border-radius:0}
+textarea{min-height:110px;resize:vertical}
+.r2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fine{font-size:12px;color:var(--mute);margin:14px 0}
+#ok{display:none;padding:14px;border-left:3px solid var(--gold);background:var(--ivory);margin-top:14px}
+footer{background:var(--ivory);border-top:1px solid var(--line);padding:72px 0 30px;font-size:14.5px}
+footer .wrap{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:44px}
+footer h4{font:700 14px "Public Sans";letter-spacing:.04em;margin-bottom:16px;color:var(--ink)}
+footer a{display:block;text-decoration:none;color:var(--mute);margin-bottom:10px}footer a:hover{color:var(--gold)}
+footer p{margin:0 0 10px;color:var(--mute)}
+footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:24px;font-size:12.5px;color:var(--mute)}
+@media(max-width:860px){footer .wrap{grid-template-columns:1fr 1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 </style>
 </head>
 <body>
-<nav id="nav"><div class="wrap">
- <a class="logo" href="#top" aria-label="Hartwell &amp; Vale Law Partners home">
-  <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 3 42 9v15c0 11-8 18-18 22C14 42 6 35 6 24V9z" fill="#0f1f3d" stroke="#b8924a" stroke-width="2"/><g stroke="#b8924a" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M24 12v22M15 16h18M18 34h12"/><path d="M15 16l-4 9h8zM33 16l-4 9h8z"/></g></svg>
-  <span><b>HARTWELL &amp; VALE</b><small>LAW PARTNERS</small></span></a>
- <button class="burger" id="bg" aria-label="Menu" aria-expanded="false">☰</button>
- <div class="links" id="lk"><a href="#areas">Practice Areas</a><a href="#about">Why Us</a><a href="#team">Attorneys</a><a href="#faq">FAQ</a><a class="btn" href="#contact">Free Consultation</a></div>
-</div></nav>
-
-<header class="hero" id="top"><div class="wrap">
- <div class="eyebrow up">Trusted legal counsel since 2008</div>
- <h1 class="up d1">Clear advice. <em>Strong</em> advocacy. Real results.</h1>
- <p class="up d2">We guide individuals, families and businesses through their most important legal matters with honesty, preparation and care.</p>
- <div class="cta up d3"><a class="btn" href="#contact">Book a free consultation</a><a class="btn o" href="#areas">Explore practice areas</a></div>
+<div class="top"><div class="wrap"><span>Serving individuals, families and businesses since 2001</span><span>Call <b>(02) 0000 0000</b> &nbsp;|&nbsp; inquiries@yourfirm.example</span></div></div>
+<header><div class="wrap">
+ <a class="logo" href="#top"><span class="mono">M</span><span><strong>Mercado Lim &amp; Santos</strong><small>Attorneys-at-Law</small></span></a>
+ <nav aria-label="Main"><a href="#about">The Firm</a><a href="#practices">Practice Areas</a><a href="#team">Our Attorneys</a><a href="#results">Results</a><a href="#faq">FAQs</a><a class="btn" href="#contact">Free Consultation</a></nav>
 </div></header>
 
-<div class="stats"><div class="wrap">
- <div class="st"><b data-n="15" data-s="+">0</b><span>Years of experience</span></div>
- <div class="st"><b data-n="1200" data-s="+">0</b><span>Cases handled</span></div>
- <div class="st"><b data-n="96" data-s="%">0</b><span>Client satisfaction</span></div>
- <div class="st"><b data-n="24" data-s="h">0</b><span>Response time</span></div>
+<main id="top">
+<div class="hero"><div class="wrap">
+ <div>
+  <div class="est">Full-service law firm</div>
+  <h1>Trusted counsel for the matters that matter most.</h1>
+  <p>From the courtroom to the boardroom, our attorneys protect your rights, your assets and your future with strategy built around you, never a template.</p>
+  <div class="acts"><a class="btn g" href="#contact">Request a free consultation</a><a class="btn o" href="#practices">Explore our practice areas</a></div>
+ </div>
+ <figure class="owner" aria-label="Managing Partner">
+  <div class="pic" role="img" aria-label="Portrait of the Managing Partner" style="--img:url('https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=800&q=80')"><span>RM</span></div>
+  <figcaption><b>Atty. Rafael Mercado</b><span>Founder and Managing Partner</span><em>Free first consultation &nbsp;|&nbsp; Reply within one business day</em></figcaption>
+ </figure>
 </div></div>
 
-<section id="areas"><div class="wrap">
- <div class="h rv"><div class="eyebrow">Practice areas</div><h2>Experienced counsel for every stage of life and business</h2></div>
- <div class="grid g3">
-  <article class="card rv"><div class="n">01</div><h3>Corporate &amp; Business</h3><p>Company setup, contracts, mergers, compliance and shareholder agreements.</p></article>
-  <article class="card rv"><div class="n">02</div><h3>Family Law</h3><p>Annulment, custody, support, adoption and property settlements, handled with discretion.</p></article>
-  <article class="card rv"><div class="n">03</div><h3>Real Estate &amp; Property</h3><p>Title review, sales, leases, disputes and due diligence for buyers and owners.</p></article>
-  <article class="card rv"><div class="n">04</div><h3>Criminal Defense</h3><p>Strong, prepared defense from the first hour of investigation through trial.</p></article>
-  <article class="card rv"><div class="n">05</div><h3>Labor &amp; Employment</h3><p>Contracts, disputes, dismissals and workplace policies for employers and employees.</p></article>
-  <article class="card rv"><div class="n">06</div><h3>Immigration</h3><p>Visas, residency and work permits, with clear steps and honest timelines.</p></article>
- </div></div></section>
+<div class="trust"><div class="wrap">
+ <div><b>25+</b><span>Years of combined experience</span></div>
+ <div><b>1,000+</b><span>Matters handled</span></div>
+ <div><b>8</b><span>Practice areas</span></div>
+ <div><b>98%</b><span>Client satisfaction</span></div>
+</div></div>
 
-<section class="alt" id="about"><div class="wrap why">
- <div class="rv"><div class="eyebrow" style="color:var(--gold)">Why Hartwell &amp; Vale</div><h2 style="font-size:clamp(2rem,4vw,3rem);margin-top:10px">A firm built on trust, preparation and plain language</h2>
- <ul>
-  <li><i>✓</i><span><b>Honest assessment.</b> We tell you the strengths and risks of your case from day one.</span></li>
-  <li><i>✓</i><span><b>Clear, upfront fees.</b> No surprises. You know the cost before we begin.</span></li>
-  <li><i>✓</i><span><b>Direct access.</b> You speak with your attorney, not just an assistant.</span></li>
-  <li><i>✓</i><span><b>Strict confidentiality.</b> Everything you share stays protected.</span></li>
- </ul></div>
- <div class="quote rv"><p>The law should never feel like a maze. Our job is to be your guide and to fight for your best outcome.</p><small>ATTY. ELENA HARTWELL, MANAGING PARTNER</small></div>
+<section id="about"><div class="wrap two">
+ <div class="ph" style="--img:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80')"><q>Our clients' rights, liberty and interests are protected at all costs.</q></div>
+ <div>
+  <div class="kick">About the firm</div>
+  <h2 class="big">A team with depth in every field of law</h2>
+  <p class="lead">Mercado Lim &amp; Santos brings together attorneys who have each spent years mastering a single discipline. Together they give clients something rare: general and specialist advice under one roof, with no matter handed between firms.</p>
+  <p class="lead">We never offer generic advice. We study your situation, explain your options in plain language and chart a course that resolves the problem in front of you and guards against the next.</p>
+  <div class="sig"><i></i><div><b>Atty. Rafael Mercado</b><span>Managing Partner</span></div></div>
+ </div>
 </div></section>
 
-<section class="team" id="team"><div class="wrap">
- <div class="h rv"><div class="eyebrow">Our attorneys</div><h2>The people who will stand with you</h2></div>
- <div class="grid g3">
-  <article class="card rv">
-    <div class="av-wrap">
-      <img class="av-img" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80" alt="Atty. Elena Hartwell">
-    </div>
-    <div class="card-content">
-      <h3>Atty. Elena Hartwell</h3>
-      <div class="role">Managing Partner</div>
-      <p>Corporate and family law. 20 years of experience advising founders and families.</p>
-    </div>
-  </article>
-  <article class="card rv">
-    <div class="av-wrap">
-      <img class="av-img" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80" alt="Atty. Marcus Vale">
-    </div>
-    <div class="card-content">
-      <h3>Atty. Marcus Vale</h3>
-      <div class="role">Partner, Litigation</div>
-      <p>Criminal defense and civil litigation. Known for thorough preparation in the courtroom.</p>
-    </div>
-  </article>
-  <article class="card rv">
-    <div class="av-wrap">
-      <img class="av-img" src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?auto=format&fit=crop&w=800&q=80" alt="Atty. Sofia Reyes">
-    </div>
-    <div class="card-content">
-      <h3>Atty. Sofia Reyes</h3>
-      <div class="role">Senior Associate</div>
-      <p>Real estate, labor and immigration matters, with a focus on clear communication.</p>
-    </div>
-  </article>
- </div></div></section>
-
-<section class="alt"><div class="wrap">
- <div class="h rv"><div class="eyebrow">How it works</div><h2>Three simple steps to get started</h2></div>
- <div class="grid g3 steps">
-  <div class="card rv"><h3>Free consultation</h3><p>Tell us about your situation in a confidential 30-minute call or visit.</p></div>
-  <div class="card rv"><h3>Clear strategy</h3><p>We explain your options, timeline and costs in plain language.</p></div>
-  <div class="card rv"><h3>Dedicated representation</h3><p>We handle the work and keep you updated at every stage.</p></div>
- </div></div></section>
-
-<section><div class="wrap">
- <div class="h rv"><div class="eyebrow">Client voices</div><h2>What clients say about working with us</h2></div>
- <div class="grid g3">
-  <div class="card rv"><div class="stars">★★★★★</div><p>“They explained everything in terms I could understand and kept me updated throughout.”</p><div class="sample">Sample testimonial: replace with a real client review</div></div>
-  <div class="card rv"><div class="stars">★★★★★</div><p>“Professional, prepared and always available. I felt supported at a very stressful time.”</p><div class="sample">Sample testimonial: replace with a real client review</div></div>
-  <div class="card rv"><div class="stars">★★★★★</div><p>“Fair fees and a clear plan from the first meeting. I would recommend them.”</p><div class="sample">Sample testimonial: replace with a real client review</div></div>
- </div></div></section>
-
-<section class="alt" id="faq"><div class="wrap" style="max-width:800px">
- <div class="h rv"><div class="eyebrow">FAQ</div><h2>Common questions</h2></div>
- <details class="rv"><summary>Is the first consultation really free?</summary><p>Yes. Your first 30-minute case review is free and confidential, with no obligation to hire us.</p></details>
- <details class="rv"><summary>How much will my case cost?</summary><p>After the consultation we give you a written fee estimate. We offer fixed fees for many services and payment plans where possible.</p></details>
- <details class="rv"><summary>Is what I tell you confidential?</summary><p>Yes. Everything you share with us is protected by attorney-client privilege.</p></details>
- <details class="rv"><summary>How quickly will you respond?</summary><p>We reply to every inquiry within one business day. Urgent matters, such as an arrest, are handled right away.</p></details>
- <details class="rv"><summary>Do you handle cases outside the city?</summary><p>Yes. We take cases nationwide and offer video consultations for clients who cannot visit the office.</p></details>
+<section id="practices" class="iv"><div class="wrap">
+ <div class="kick">Practice areas</div>
+ <h2 class="big">Comprehensive legal services</h2>
+ <p class="lead">Eight disciplines, coordinated by one team, so your matter always has the right expert and a single point of contact.</p>
+ <div class="grid">
+  <div class="pa"><svg viewBox="0 0 32 32"><circle cx="9" cy="16" r="5"/><circle cx="23" cy="16" r="5"/><path d="M14 16h4"/></svg><h3>Criminal Defense and Prosecution</h3><p>Representation from investigation to appeal, with defenses prepared early and argued with focus.</p></div>
+  <div class="pa"><svg viewBox="0 0 32 32"><path d="M5 27V9l9-4v22M14 27h13V13l-13-2M9 12v2M9 17v2M9 22v2M19 17v2M19 22v2"/></svg><h3>Corporate and Compliance</h3><p>Entity setup, governance, regulatory filings, contracts and transactions.</p></div>
+  <div class="pa"><svg viewBox="0 0 32 32"><path d="M4 15 16 5l12 10M7 13v14h18V13M13 27v-8h6v8"/></svg><h3>Property and Asset Protection</h3><p>Due diligence, titling and safeguards for what you own.</p></div>
+  <div class="pa"><svg viewBox="0 0 32 32"><path d="M16 4v22M7 26h18M6 9h20M6 9l-3 8a4 4 0 0 0 6 0zM26 9l-3 8a4 4 0 0 0 6 0z"/></svg><h3>Civil Law and Family</h3><p>Custody, adoption, annulment, contracts and civil claims.</p></div>
+  <div class="pa"><svg viewBox="0 0 32 32"><path d="M8 5h16v22H8zM12 10h8M12 15h2M18 15h2M12 20h2M18 20h2"/></svg><h3>Taxation and Estate Planning</h3><p>Structuring and managing tax obligations and the transfer of wealth.</p></div>
+  <div class="pa"><svg viewBox="0 0 32 32"><rect x="5" y="11" width="22" height="15" rx="1"/><path d="M12 11V7h8v4M5 18h22"/></svg><h3>Labor and Employment</h3><p>Advice for employers and employees on contracts, discipline and disputes.</p></div>
+  <div class="pa"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="11"/><path d="M5 16h22M16 5c4 4 4 18 0 22M16 5c-4 4-4 18 0 22"/></svg><h3>Visa and Immigration</h3><p>Visas, residency and work permits for individuals and companies.</p></div>
+  <div class="pa"><svg viewBox="0 0 32 32"><path d="M5 16h7l3-4 4 8 3-4h5"/><circle cx="16" cy="16" r="12"/></svg><h3>Arbitration and ADR</h3><p>Mediation and arbitration that resolve disputes faster than court.</p></div>
+ </div>
 </div></section>
 
-<section class="contact" id="contact"><div class="wrap cg">
- <div class="info rv"><div class="eyebrow">Contact us</div><h2 style="font-size:clamp(2rem,4vw,3rem);margin:10px 0 14px">Let’s talk about your case</h2>
-  <p>Send a message and an attorney will reply within one business day. All inquiries are confidential.</p>
-  <b>Office</b><p>123 Sample Avenue, Makati City, Philippines</p>
-  <b>Phone</b><p><a href="tel:+63280000000">+63 2 8000 0000</a></p>
-  <b>Email</b><p><a href="mailto:hello@hartwellvale.example">hello@hartwellvale.example</a></p>
-  <b>Hours</b><p>Mon to Fri, 9:00 AM to 6:00 PM</p></div>
- <form id="f" class="rv" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-  <div><label for="n">Full name</label><input id="n" name="name" required autocomplete="name"></div>
-  <div><label for="e">Email</label><input id="e" name="email" type="email" required autocomplete="email"></div>
-  <div><label for="p">Phone</label><input id="p" name="phone" type="tel" autocomplete="tel"></div>
-  <div><label for="a">Type of matter</label><select id="a" name="matter"><option>Corporate &amp; Business</option><option>Family Law</option><option>Real Estate &amp; Property</option><option>Criminal Defense</option><option>Labor &amp; Employment</option><option>Immigration</option><option>Other</option></select></div>
-  <div><label for="m">How can we help?</label><textarea id="m" name="message" rows="4" required></textarea></div>
-  <button class="btn" type="submit">Request free consultation</button>
-  <div class="ok" id="ok" role="status">Thank you. We received your message and will reply within one business day.</div>
+<section id="team"><div class="wrap">
+ <div class="kick">Our attorneys</div>
+ <h2 class="big">The people behind your case</h2>
+ <div class="team">
+  <div class="mem"><div class="av" style="--img:url('https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=600&q=80')">RM</div><h3>Rafael Mercado</h3><span>Managing Partner</span><p>Criminal defense and litigation.</p></div>
+  <div class="mem"><div class="av" style="--img:url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80')">CL</div><h3>Carmela Lim</h3><span>Senior Partner</span><p>Corporate law and compliance.</p></div>
+  <div class="mem"><div class="av" style="--img:url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80')">ES</div><h3>Enrique Santos</h3><span>Partner</span><p>Property, tax and estate planning.</p></div>
+  <div class="mem"><div class="av" style="--img:url('https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80')">AV</div><h3>Andrea Villanueva</h3><span>Associate</span><p>Family law and immigration.</p></div>
+ </div>
+</div></section>
+
+<section class="iv"><div class="wrap">
+ <div class="kick">How we work</div>
+ <h2 class="big">From first call to resolution</h2>
+ <div class="steps">
+  <div class="st"><h3>Free consultation</h3><p>We listen, review your documents and tell you where you stand.</p></div>
+  <div class="st"><h3>Clear strategy</h3><p>You receive a written plan with options, timelines and costs.</p></div>
+  <div class="st"><h3>Active representation</h3><p>We act on your behalf and keep you informed at each stage.</p></div>
+  <div class="st"><h3>Lasting solution</h3><p>We resolve the matter and put safeguards in place for the future.</p></div>
+ </div>
+</div></section>
+
+<section id="results"><div class="wrap">
+ <div class="kick">Results</div>
+ <h2 class="big">Proven in court and at the table</h2>
+ <p class="lead">Sample entries shown. Replace them with your firm's verified results. Past results do not guarantee a similar outcome.</p>
+ <div class="res">
+  <div class="rc"><b>Acquitted</b><em>Criminal Defense</em><p>Sample: all charges dismissed for a client after trial.</p></div>
+  <div class="rc"><b>Favorable</b><em>Civil Litigation</em><p>Sample: judgment secured for a business owner in a contract dispute.</p></div>
+  <div class="rc"><b>Reduced</b><em>Taxation</em><p>Sample: assessment lowered for a family-owned company.</p></div>
+ </div>
+ <div class="tq">
+  <blockquote>They made every step of my case easy to follow, answered every call and explained each decision.<cite>Client name, Corporate</cite></blockquote>
+  <blockquote>Professional, responsive and genuinely caring. I would recommend them to anyone facing a legal problem.<cite>Client name, Family</cite></blockquote>
+  <blockquote>We won our case. Always reachable and thorough from start to finish.<cite>Client name, Litigation</cite></blockquote>
+ </div>
+ <div class="logos"><span>Peer Rated</span><span>Super Lawyers</span><span>Best Lawyers</span><span>Legal 500</span><span>Chambers</span></div>
+</div></section>
+
+<section id="faq" class="iv"><div class="wrap" style="max-width:920px">
+ <div class="kick">FAQs</div>
+ <h2 class="big">Questions we hear often</h2>
+ <div style="margin-top:36px">
+  <details><summary>Is the first consultation free?</summary><p>Yes. Your first case review is free. We explain your options and likely fees before you decide to hire us.</p></details>
+  <details><summary>How soon will an attorney contact me?</summary><p>Every inquiry is reviewed by a lawyer who replies within one business day. Urgent criminal matters are handled sooner.</p></details>
+  <details><summary>Do you work with foreign clients?</summary><p>Yes. We advise foreign individuals and companies on immigration, property, corporate and tax matters.</p></details>
+  <details><summary>What should I bring to my consultation?</summary><p>Bring any documents, notices or correspondence related to your matter. If you have none yet, we will tell you what to gather.</p></details>
+ </div>
+</div></section>
+
+<section id="contact" class="cta"><div class="wrap">
+ <div>
+  <div class="kick">Contact us</div>
+  <h2 class="big">Looking for a reliable, dedicated partner?</h2>
+  <p class="lead">Tell us briefly what you need. An attorney will review your inquiry and reply within one business day.</p>
+  <div class="info">
+   <div><b>Office</b><span>Unit 000, 00th Floor, Sample Tower, Business District, Metro Manila</span></div>
+   <div><b>Phone</b><span>(02) 0000 0000</span></div>
+   <div><b>Email</b><span>inquiries@yourfirm.example</span></div>
+   <div><b>Hours</b><span>Monday to Friday, 9:00 AM to 6:00 PM</span></div>
+  </div>
+ </div>
+ <form id="f" novalidate>
+  <h3>Free case consultation</h3>
+  <div class="r2"><div><label for="a">First name</label><input id="a" autocomplete="given-name"></div><div><label for="b">Last name</label><input id="b" autocomplete="family-name"></div></div>
+  <label for="c">Email</label><input id="c" type="email" autocomplete="email">
+  <label for="d">Phone</label><input id="d" type="tel" autocomplete="tel">
+  <label for="e">Practice area</label><select id="e"><option>Criminal</option><option>Corporate</option><option>Property</option><option>Civil and family</option><option>Taxation</option><option>Labor</option><option>Immigration</option><option>Arbitration</option></select>
+  <label for="g">Tell us about your case</label><textarea id="g"></textarea>
+  <p class="fine">By submitting, you agree to our Terms of Use and Privacy Policy. Contacting us does not create an attorney-client relationship.</p>
+  <button class="btn g" type="submit" style="width:100%">Send inquiry</button>
+  <div id="ok" role="status">Thank you. An attorney will contact you within one business day.</div>
  </form>
 </div></section>
+</main>
 
 <footer><div class="wrap">
- <a class="logo" href="#top"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 3 42 9v15c0 11-8 18-18 22C14 42 6 35 6 24V9z" fill="#0f1f3d" stroke="#b8924a" stroke-width="2"/><g stroke="#b8924a" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M24 12v22M15 16h18M18 34h12"/><path d="M15 16l-4 9h8zM33 16l-4 9h8z"/></g></svg><span><b>HARTWELL &amp; VALE</b><small>LAW PARTNERS</small></span></a>
- <div>© <span id="y"></span> Hartwell &amp; Vale Law Partners. All rights reserved.</div>
- <div class="disc">Disclaimer: The information on this website is for general information only and is not legal advice. Contacting us or sending a message does not create an attorney-client relationship. Please do not send confidential details until we confirm that we can represent you.</div>
+ <div><a class="logo" href="#top" style="margin-bottom:18px"><span class="mono">M</span><span><strong>Mercado Lim &amp; Santos</strong><small>Attorneys-at-Law</small></span></a><p>A full-service law firm advising individuals, families and businesses.</p></div>
+ <div><h4>The firm</h4><a href="#about">About us</a><a href="#team">Our attorneys</a><a href="#results">Results</a><a href="#faq">FAQs</a></div>
+ <div><h4>Practices</h4><a href="#practices">Criminal</a><a href="#practices">Corporate</a><a href="#practices">Property</a><a href="#practices">Taxation</a></div>
+ <div><h4>Reach us</h4><p>Unit 000, 00th Floor, Sample Tower<br>Business District, Metro Manila</p><p>(02) 0000 0000<br>inquiries@yourfirm.example</p></div>
+ <div class="legal">&copy; 2026 Mercado Lim &amp; Santos. All rights reserved. Attorney advertising. Information on this site is general and is not legal advice. Privacy Policy | Terms</div>
 </div></footer>
-
 <script>
-const $=s=>document.querySelector(s),nav=$('#nav');
-addEventListener('scroll',()=>nav.classList.toggle('s',scrollY>40),{passive:true});
-$('#bg').onclick=()=>{const o=$('#lk').classList.toggle('o');$('#bg').setAttribute('aria-expanded',o)};
-$('#lk').onclick=e=>{if(e.target.tagName=='A'){$('#lk').classList.remove('o');$('#bg').setAttribute('aria-expanded',false)}};
-$('#y').textContent=new Date().getFullYear();
-const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.15});
-document.querySelectorAll('.rv').forEach((el,i)=>{el.style.transitionDelay=(i%3)*.12+'s';io.observe(el)});
-const co=new IntersectionObserver(es=>es.forEach(x=>{if(!x.isIntersecting)return;co.unobserve(x.target);const el=x.target,n=+el.dataset.n,t0=performance.now();
- (function f(t){const p=Math.min(1,(t-t0)/1600),v=Math.round(n*(1-Math.pow(1-p,3)));el.textContent=v.toLocaleString()+el.dataset.s;if(p<1)requestAnimationFrame(f)})(t0)}),{threshold:.6});
-document.querySelectorAll('[data-n]').forEach(el=>co.observe(el));
-$('#f').onsubmit=async e=>{e.preventDefault();const f=e.target;
- if(f.action.includes('YOUR_FORM_ID')){$('#ok').style.display='block';f.reset();return}
- try{const r=await fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}});if(r.ok){$('#ok').style.display='block';f.reset()}else alert('Sorry, something went wrong. Please call us instead.')}catch(x){alert('Sorry, something went wrong. Please call us instead.')}};
+document.getElementById('f').onsubmit=function(e){e.preventDefault();document.getElementById('ok').style.display='block';e.target.reset()};
 </script>
 </body>
 </html>
